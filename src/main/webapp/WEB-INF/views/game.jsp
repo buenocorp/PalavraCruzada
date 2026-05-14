@@ -286,9 +286,6 @@ button{background:linear-gradient(135deg,#7c3aed,#db2777);color:#fff;
             <div class="pb-bg"><div class="pb-fill" id="progressBar" style="width:0%"></div></div>
         </div>
 
-        <% if (submitted && score != null) { %>
-            <div class="score">Pontuacao final: <%= score %> de <%= words.size() %> ⭐</div>
-        <% } %>
 
         <form method="post" action="<%= request.getContextPath() %>/jogo">
             <div class="clues">
